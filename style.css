@@ -1,0 +1,55 @@
+/* Basic responsive */
+
+/*@import url('reset.css');
+*/
+/* **** */
+* {
+	font-family: "Trebuchet MS";
+}
+body, ul, li {
+	margin: 0;
+	padding: 0;
+}
+p, li, h1, h2, h3, h4 {
+	color: #4e4e4e;
+}
+body {
+	background: #f7f7f7;
+}
+.wrapper {
+	width: 96%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2%;
+
+}
+header {
+	background: #e5e5e5;
+	padding: 20px 0;
+}
+header h1 {
+	margin: 0;
+	text-indent: -9999px;
+	background: url(images/logo.png) no-repeat;
+	width: 160px;
+	float: left;
+}
+header nav {
+	float: right;
+}
+header:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+header nav h2 {
+	line-height: 0;
+	margin: 0;
+	text-indent: -9999px;
+}
+header nav li {
+	list-style-type: none;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
